@@ -64,3 +64,29 @@ img{
 .platform{
 	margin-top: 50px;
 }
+.thesis{
+	background: #0c36d1;
+}
+.translations{
+	background: #16da60;
+}
+.lg_link{
+	color: #ffffff;
+	font-size: 40px;
+	font-weight: 600;
+	text-decoration: none;
+}
+.lg_link:hover{
+	color: #777777;
+	text-decoration: underline;
+}
+.sm_link{
+	color: #ffffff;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 18px;
+	font-weight: 400;
+}
+.sm_link:hover{
+	color: #777777;
+	text-decoration: underline;
+}
