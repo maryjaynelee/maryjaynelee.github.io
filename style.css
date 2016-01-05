@@ -90,3 +90,13 @@ img{
 	color: #999999;
 	text-decoration: underline;
 }
+.sm_link2{
+	color: #000000;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 18px;
+	font-weight: 400;
+}
+.sm_link2:hover{
+	color: #999999;
+	text-decoration: underline;
+}
