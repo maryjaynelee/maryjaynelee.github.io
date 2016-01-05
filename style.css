@@ -28,7 +28,7 @@ a{
 p{
 	font-family: "Times", sans-serif;
 	line-height:22px;
-	width: 50%;
+	max-width: 50%;
 }
 span{
 	font-weight: 600;
@@ -42,7 +42,9 @@ span{
 
 }
 .points2{
+	display: block;
 	color: #000000;
+	margin-top: 20px;
 }
 img{
 	margin-top: 20px;
