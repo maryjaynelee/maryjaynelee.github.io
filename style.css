@@ -100,3 +100,13 @@ img{
 	color: #ddd;
 	text-decoration: underline;
 }
+.lg_link2{
+	color: #000000;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 40px;
+	text-decoration: none;
+}
+.lg_link2:hover{
+	color: #ddd;
+	text-decoration: underline;
+}
