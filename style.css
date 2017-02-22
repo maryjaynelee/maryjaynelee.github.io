@@ -1,238 +1,44 @@
 body{
-	font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
-	color: #444444;
-	margin: 0;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 18px;
+	color: #222222;
+	margin: 30px 0 0 0;
 }
-nav{
-	margin: 3%;
-	font-size: 1em;
+section{
+	padding: 50px;
 }
-div.main{
-	display: inline;
+.first{
+	background: black;
 }
-div.secondary{
-	display: inline;
-	float: right;
-	margin: 0 20px;
-}
-section.hero{
-	padding: 5% 0 10% 0;
-	margin: 0 3%;
-}
-section.categories{
-	margin: 0 0 10% 3%;
+section.header{
+	background: white;
+	padding: 0 50px 20px 50px;
 }
 h1{
-	font-family: Georgia, Times, serif;
-	font-size: 7em;
-	font-weight: bold;
-	margin: 0;
-}
-h1.name{
-	display: inline;
-}
-h2{
-	font-weight: 300;
-	font-size: 6em;
-	margin: 0;
-	letter-spacing: -0.05em;
-}
-h3{
-	font-family: Times, serif;
-	font-style: italic;
-	color: #aaa;
-	font-weight: 300;
-	font-size: 4em;
-	margin: -4% 0;
-	padding: 0 3%;
-}
-span.subheader{
-	display: block;
-	font-family: Times, serif;
-	font-style: italic;
-	font-weight: normal;
-	letter-spacing: -2px;
-	color: #f0f0f0;
-	margin: -3% 0 0 36%;
-}
-.hero span{
-	font-size: 3em;
-	letter-spacing: -0.05em;
-}
-div.banner{
-	background: -webkit-linear-gradient(#078691, #64295B); /* For Safari 5.1 to 6.0 */
-    background: -o-linear-gradient(#078691, #64295B); /* For Opera 11.1 to 12.0 */
-    background: -moz-linear-gradient(#078691, #64295B); /* For Firefox 3.6 to 15 */
-    background: linear-gradient(#078691, #64295B); /* Standard syntax */
-	height: 100%;
-	width: 100%;
-	transform: skewY(-16deg);
-}
-div.banner-2{
-	background: -webkit-linear-gradient(#004941, #F5E5CA); /* For Safari 5.1 to 6.0 */
-    background: -o-linear-gradient(#004941, #F5E5CA); /* For Opera 11.1 to 12.0 */
-    background: -moz-linear-gradient(#004941, #F5E5CA); /* For Firefox 3.6 to 15 */
-    background: linear-gradient(#004941, #F5E5CA); /* Standard syntax */
-    height: 100%;
-	width: 100%;
-	transform: skewY(-16deg);
-}
-div.banner-3{
-	background: -webkit-linear-gradient(#C07A76, #F6E9E0); /* For Safari 5.1 to 6.0 */
-    background: -o-linear-gradient(#C07A76, #F6E9E0); /* For Opera 11.1 to 12.0 */
-    background: -moz-linear-gradient(#C07A76, #F6E9E0); /* For Firefox 3.6 to 15 */
-    background: linear-gradient(#C07A76, #F6E9E0); /* Standard syntax */
-    height: 100%;
-	width: 100%;
-	transform: skewY(-16deg);
-}
-div.banner-4{
-	background: -webkit-linear-gradient(#00384B, #DCE9EC); /* For Safari 5.1 to 6.0 */
-    background: -o-linear-gradient(#00384B, #DCE9EC); /* For Opera 11.1 to 12.0 */
-    background: -moz-linear-gradient(#00384B, #DCE9EC); /* For Firefox 3.6 to 15 */
-    background: linear-gradient(#00384B, #DCE9EC); /* Standard syntax */
-    height: 100%;
-	width: 100%;
-	transform: skewY(-16deg);
-}
-div.transition-1{
-	background: -webkit-linear-gradient(white, black); /* For Safari 5.1 to 6.0 */
-    background: -o-linear-gradient(white, black); /* For Opera 11.1 to 12.0 */
-    background: -moz-linear-gradient(white, black); /* For Firefox 3.6 to 15 */
-    background: linear-gradient(white, black); /* Standard syntax */
-    height: 100%;
-    width: 100%;
-}
-div.transition-2{
-	background: -webkit-linear-gradient(black, white); /* For Safari 5.1 to 6.0 */
-    background: -o-linear-gradient(black, white); /* For Opera 11.1 to 12.0 */
-    background: -moz-linear-gradient(black, white); /* For Firefox 3.6 to 15 */
-    background: linear-gradient(black, white); /* Standard syntax */
-    height: 100%;
-    width: 100%;
-}
-div.category{
-	width: 100%;
-	position: absolute;
-	z-index: 1;
-	margin-top: 40%;
-}
-span.one{
-	color: #D8B596;
-	font-size: 5em;
-	font-family: Georgia, Times, serif;
-	font-weight: bold;
-	float: right;
-	margin: -5% 48%;
-}
-span.two{
-	color: #032C30;
-	font-size: 5em;
-	font-family: Georgia, Times, serif;
-	font-weight: bold;
-	float: right;
-	margin: -5% 35%;
-}
-span.three{
-	color: #3E110D;
-	font-size: 5em;
-	font-family: Georgia, Times, serif;
-	font-weight: bold;
-	float: right;
-	margin: -5% 44%;
-}
-div.line{
-	height: 10px;
-	width: 25%;
-	background-color: #D8B596;
-	float: left;
-}
-section.work{
-	margin-top: 25%;
-}
-section.nda{
-	padding: 3%;
-	width: 60%;
-	box-shadow: -10px -10px;
-	margin: 5%;
-}
-p.bullet{
-	box-shadow: -4px 0;
-	padding: 2%;
-	margin: 0 5% 2%;
-}
-p.special{
-	font-family: Times, serif;
-	font-size: 10em;
-	margin: 20% 0 -5%;
-}
-.contact{
-	float: right;
-	padding-top: 10px;
-}
-.contact a{
-	font-size: 5em;
-	color: #ffffff;
-	text-shadow: -2px 0 #0000ff, 0 2px #0000ff, 2px 0 #0000ff, 0 -2px #0000ff;
-	display: block;
-}
-.contact a:hover{
-	opacity: 0.9;
+	font-size: 40px;
+	font-weight: 600;
+	color: #222222;
+	margin: 0px;
 }
 a{
-	color: #444444;
-	text-decoration: none;
-	cursor: pointer;
-}
-a:hover{
-	opacity: 0.9;
-	cursor: pointer;
-}
-a:visited{
-	color: #444444;
-}
-h1 a{
 	text-decoration: underline;
+	font-weight: 400;
+	font-size: 18px;
 }
 p{
-	font-family: "Roboto", sans-serif;
-	line-height:20px;
+	font-family: "Times", sans-serif;
+	line-height:22px;
 	max-width: 50%;
-	padding: 4%;
-}
-footer section p{
-	text-align: center;
-	max-width: 100%;
-	font-size: 20px;
-	font-weight: 600;
-}
-footer p{
-	font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
-	text-align: center;
-	max-width: 100%;
-	font-size: 1em;
-}
-footer a{
-	text-align: center;
-	padding: 0;
-}
-footer a:hover{
-	opacity: 0.7;
-}
-footer section{
-	padding: 70px 0 90px 0;
-}
-footer .contact{
-	float: none;
 }
 span{
-	font-weight: 300;
-	font-size: 20px;
+	font-weight: 600;
+	font-size: 18px;
+	margin-left: 5px;
 }
 .points{
 	display:block;
 	color: #ffffff;
-	margin-top: 50px;
+	margin-top: 20px;
 
 }
 .points2{
@@ -240,127 +46,67 @@ span{
 	color: #000000;
 	margin-top: 20px;
 }
-.full{
-	width: 90%;
-	margin: 4%;
+img{
+	margin-top: 20px;
 }
-.mini{
-	width: 50%;
-	margin: 10% 24%;
+.full{
+	width:90%;
+}
+.bloglovin{
+	color: #ffffff;
+}
+.header-top{
+	display: inline;
+}
+.header-bottom{
+	display: inline;
 }
 .platform{
-	/*margin-top: 10%;*/
-	padding: 3%;
+	margin-top: 50px;
 }
-
-/*.sm_link{
+.thesis{
+	background: #0c36d1;
+}
+.translations{
+	background: #16da60;
+}
+.lg_link{
 	color: #ffffff;
-	font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 40px;
+	font-weight: 600;
+	text-decoration: none;
+}
+.lg_link:hover{
+	color: #ddd;
+	text-decoration: underline;
+}
+.sm_link{
+	color: #ffffff;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-size: 18px;
 	font-weight: 400;
 }
 .sm_link:hover{
-	opacity: 0.7;
+	color: #ddd;
 	text-decoration: underline;
-}
-.sm_link:visited{
-	color: #ffffff;
 }
 .sm_link2{
 	color: #000000;
-	font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-size: 18px;
 	font-weight: 400;
 }
 .sm_link2:hover{
-	opacity: 0.7;
+	color: #ddd;
 	text-decoration: underline;
 }
-.sm_link2:visited{
+.lg_link2{
 	color: #000000;
-}*/
-
-/* MOBILE STYLES */
-@media (max-width: 605px){
-	body{
-		width: 100%;
-		margin: 0;
-	}
-	nav{
-		margin: 8% 4%;
-	}
-	span.subheader{
-		margin: -4% 0 0 36%;
-	}
-	section.hero{
-		padding: 20% 0;
-		margin: 4%;
-	}
-	.hero span{
-		font-size: 2em;
-		line-height: 1em;
-	}
-	h1{
-		font-size: 3em;
-		line-height: 1em;
-	}
-	h2{
-		font-size: 5em;
-		line-height: 1em;
-	}
-	.nda h2{
-		font-size: 2em;
-		line-height: 1.15em;
-	}
-	h3{
-		margin: -5% 0;
-		line-height: 0.8em;
-	}
-	section.categories{
-		margin: 5%;
-	}
-	div.secondary{
-		margin: 0 3%;
-	}
-	span.one{
-		font-size: 4em;
-		margin: 0;
-	}
-	span.two{
-		font-size: 4em;
-		margin: 0;
-	}
-	span.three{
-		font-size: 4em;
-		margin: 0;
-	}
-	p{
-		max-width: 100%;
-		margin: 15% 5%;
-	}
-	.platform{
-		padding: 5% 0;
-	}
-	p.bullet{
-		padding: 10%;
-	}
-	p.special{
-		font-size: 7em;
-		margin: 20% 0 0;
-	}
-	.contact{
-		float: none;
-		padding: 20px;
-	}
-	.contact a{
-		font-size: 2em;
-	}
-	.full{
-		width: 100%;
-		margin: 5% 0;
-	}
-	.mini{
-		width: 100%;
-		margin: 5% 0;
-	}
+	font-size: 40px;
+	font-weight: 600;
+	text-decoration: none;
+}
+.lg_link2:hover{
+	color: #777;
+	text-decoration: underline;
 }
