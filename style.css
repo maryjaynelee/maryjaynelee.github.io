@@ -13,14 +13,15 @@ div.main{
 div.secondary{
 	display: inline;
 	float: right;
-	margin: 0 20px;
+	margin: 0 0 0 2%;
 }
 section.hero{
 	padding: 5% 0 10% 0;
 	margin: 0 3%;
 }
 section.categories{
-	margin: 0 0 10% 3%;
+	margin: 3%;
+	padding: 5% 0;
 }
 h1{
 	font-family: Georgia, Times, serif;
@@ -52,8 +53,8 @@ span.subheader{
 	font-style: italic;
 	font-weight: normal;
 	letter-spacing: -2px;
-	color: #f0f0f0;
-	margin: -3% 0 0 36%;
+	color: #aaaaaa;
+	margin: -12%;
 }
 .hero span{
 	font-size: 3em;
@@ -168,16 +169,42 @@ p.special{
 }
 .contact{
 	float: right;
-	padding-top: 10px;
+	padding: 3%;
 }
 .contact a{
 	font-size: 5em;
-	color: #ffffff;
-	text-shadow: -2px 0 #0000ff, 0 2px #0000ff, 2px 0 #0000ff, 0 -2px #0000ff;
+	color: black;
+	text-shadow: -2px 0 #444444, 0 2px #444444, 2px 0 #444444, 0 -2px #444444;
 	display: block;
 }
 .contact a:hover{
 	opacity: 0.9;
+}
+div.subpage-container{
+	padding: 2%;
+	width: 70%;
+	margin: 0 auto;
+	text-align: center;
+}
+.hero-container{
+	padding: 0 0 5% 0;
+}
+.contact-container{
+	border-top: 1px solid #dddddd;
+}
+p.about{
+	max-width: 100%;
+	text-align: left;
+	padding: 0;
+}
+.bio{
+	float: right;
+	text-align: left;
+	margin: 0;
+	line-height: 1.5em;
+}
+.contact-info{
+	text-align: left;
 }
 a{
 	color: #444444;
@@ -192,13 +219,19 @@ a:visited{
 	color: #444444;
 }
 h1 a{
-	text-decoration: underline;
+	box-shadow: 0 10px #1D56E3;
 }
 p{
-	font-family: "Roboto", sans-serif;
+	font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
 	line-height:20px;
 	max-width: 50%;
 	padding: 4%;
+}
+p a{
+	box-shadow: 0 1px #F3A8A4;
+}
+footer{
+	background-color: black;
 }
 footer section p{
 	text-align: center;
@@ -211,6 +244,7 @@ footer p{
 	text-align: center;
 	max-width: 100%;
 	font-size: 1em;
+	margin: 0;
 }
 footer a{
 	text-align: center;
@@ -219,26 +253,11 @@ footer a{
 footer a:hover{
 	opacity: 0.7;
 }
-footer section{
-	padding: 70px 0 90px 0;
-}
 footer .contact{
 	float: none;
 }
-span{
-	font-weight: 300;
-	font-size: 20px;
-}
-.points{
-	display:block;
-	color: #ffffff;
-	margin-top: 50px;
-
-}
-.points2{
-	display: block;
-	color: #000000;
-	margin-top: 20px;
+.contact-info a{
+	box-shadow: 0 1px #F3A8A4;
 }
 .full{
 	width: 90%;
@@ -249,37 +268,8 @@ span{
 	margin: 10% 24%;
 }
 .platform{
-	/*margin-top: 10%;*/
 	padding: 3%;
 }
-
-/*.sm_link{
-	color: #ffffff;
-	font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
-	font-size: 18px;
-	font-weight: 400;
-}
-.sm_link:hover{
-	opacity: 0.7;
-	text-decoration: underline;
-}
-.sm_link:visited{
-	color: #ffffff;
-}
-.sm_link2{
-	color: #000000;
-	font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
-	font-size: 18px;
-	font-weight: 400;
-}
-.sm_link2:hover{
-	opacity: 0.7;
-	text-decoration: underline;
-}
-.sm_link2:visited{
-	color: #000000;
-}*/
-
 /* MOBILE STYLES */
 @media (max-width: 605px){
 	body{
@@ -303,6 +293,9 @@ span{
 	h1{
 		font-size: 3em;
 		line-height: 1em;
+	}
+	h1 a{
+		box-shadow: 0 5px #1D56E3;
 	}
 	h2{
 		font-size: 5em;
@@ -350,7 +343,6 @@ span{
 	}
 	.contact{
 		float: none;
-		padding: 20px;
 	}
 	.contact a{
 		font-size: 2em;
@@ -362,5 +354,12 @@ span{
 	.mini{
 		width: 100%;
 		margin: 5% 0;
+	}
+	p.bio{
+		padding: 10%;
+		text-align: center;
+	}
+	p.contact-info{
+		text-align: center;
 	}
 }
